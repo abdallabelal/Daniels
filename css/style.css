@@ -1,0 +1,596 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+
+}
+nav ul li{
+    margin-left: 10px;
+}
+.Home{
+ background-image: url(../images/bg\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.overlay{
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.icons i{
+    margin: 30px 3px;
+    padding: 7px;
+    border-radius:50px ;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+.icons i:hover{
+    cursor: pointer;
+}
+nav .active{
+    color: black !important;
+    position: relative;
+}
+nav .active::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 80%;
+    height: 2px;
+    bottom: 0;
+    left: 10%;
+}
+.Home h1 span{
+    font-size: 70px;
+    font-weight: 200;
+}
+ .Home h1 span::after {
+    content: "|";
+    animation: word 8s infinite;
+}
+@keyframes word {
+    0% {
+        content: "|";
+    }
+    1% {
+        content: "D|";
+    }
+    2% {
+        content: "De|";
+    }
+    3% {
+        content: "Des|";
+    }
+    4% {
+        content: "Desi|";
+    }
+    5% {
+        content: "Desig|";
+    }
+    6% {
+        content: "Design|";
+    }
+    7% {
+        content: "Designe|";
+    }
+    8% {
+        content: "Designer|";
+    }
+    13% {
+        content: "Designer|";
+    }
+    14% {
+        content: "Designe|";
+    }
+    15% {
+        content: "Design|";
+    }
+    16% {
+        content: "Desig|";
+    }
+    17% {
+        content: "Desi|";
+    }
+    18% {
+        content: "Des|";
+    }
+    19% {
+        content: "De|";
+    }
+    20% {
+        content: "D|";
+    }
+    21% {
+        content: "D|";
+    }
+    22% {
+        content: "De|";
+    }
+    23% {
+        content: "Dev|";
+    }
+    24% {
+        content: "Deve|";
+    }
+    25% {
+        content: "Devel|";
+    }
+    26% {
+        content: "Develo|";
+    }
+    27% {
+        content: "Develope|";
+    }
+    28% {
+        content: "Developer|";
+    }
+    33% {
+        content: "Developer|";
+    }
+    34% {
+        content: "Develope|";
+    }
+    35% {
+        content: "Develop|";
+    }
+    36% {
+        content: "Develo|";
+    }
+    37% {
+        content: "Devel|";
+    }
+    38% {
+        content: "Deve|";
+    }
+    39% {
+        content: "Dev|";
+    }
+    40% {
+        content: "De|";
+    }
+    41% {
+        content: "D|";
+    }
+    42% {
+        content: "|";
+    }
+    43% {
+        content: "L|";
+    }
+    44% {
+        content: "La|";
+    }
+    45% {
+        content: "Lar|";
+    }
+    46% {
+        content: "Larr|";
+    }
+    47% {
+        content: "Larry|";
+    }
+    48% {
+        content: "Larry |";
+    }
+    49% {
+        content: "Larry D|";
+    }
+    50% {
+        content: "Larry Da|";
+    }
+    51% {
+        content: "Larry Dan|";
+    }
+    52% {
+        content: "Larry Dani|";
+    }
+    57% {
+        content: "Larry Danie|";
+    }
+    58% {
+        content: "Larry Daniel|";
+    }
+    59% {
+        content: "Larry Daniels|";
+    }
+    60% {
+        content: "Larry Daniels|";
+    }
+    61% {
+        content: "Larry Daniel|";
+    }
+    62% {
+        content: "Larry Danie|";
+    }
+    63% {
+        content: "Larry Dani|";
+    }
+    64% {
+        content: "Larry Dan|";
+    }
+    65% {
+        content: "Larry Da";
+    }
+    66% {
+        content: "Larry D|";
+    }
+    67% {
+        content: "Larry |";
+    }
+    68% {
+        content: "Larry|";
+    }
+    69% {
+        content: "Larr|";
+    }
+    70% {
+        content: "Lar|";
+    }
+    71% {
+        content: "La|";
+    }
+    72% {
+        content: "L|";
+    }
+    73% {
+        content: "|";
+    }
+    74% {
+        content: "D|";
+    }
+    75% {
+        content: "De|";
+    }
+    76% {
+        content: "Dev|";
+    }
+    77% {
+        content: "Deve|";
+    }
+    78% {
+        content: "Devel|";
+    }
+    79% {
+        content: "Develop|";
+    }
+    84% {
+        content: "Developer|";
+    }
+    85% {
+        content: "Developer|";
+    }
+    86% {
+        content: "Develope|";
+    }
+    87% {
+        content: "Develop|";
+    }
+    88% {
+        content: "Develo|";
+    }
+    89% {
+        content: "Devel|";
+    }
+    90% {
+        content: "Deve|";
+    }
+    91% {
+        content: "Dev|";
+    }
+    92% {
+        content: "De|";
+    }
+    93% {
+        content: "D|";
+    }
+    94% {
+        content: "|";
+    }
+    95% {
+        content: "|";
+    }
+    96% {
+        content: "|";
+    }
+    
+}
+.content h5{
+    font-size: 50px !important;
+}
+
+.about-img::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/vector-polka-background-with-small-dots_1017-13972.png);
+    background-repeat: repeat;
+    opacity: 0.3;
+    width: 100%;
+    height: 105%;
+    bottom: -5;
+    z-index: -1;
+   
+   
+
+}
+
+.progress{
+    height: 25px;
+    width: 600px;
+    background-color:rgba(128, 128, 128, 0.445) !important;
+    
+}
+.progress-bar{
+    background-color: #1c1c1c !important;
+    border-radius: 3px;
+}
+.porgress1{
+    width: 95% !important;
+}
+.porgress2{
+    width: 80% !important;
+}
+.porgress3{
+    width: 90% !important;
+}
+.btn{
+    padding: 10px 25px;
+    border: 1px solid black !important;
+}
+.first:hover{
+    background-color: white !important;
+    color: black !important; 
+}
+.second:hover{
+    background-color: black;
+    color: white;
+}
+.About p{
+    color: #999999 !important;
+}
+.services h2{
+    font-weight: 800;
+   z-index: 2;
+    position: relative;
+   
+}
+
+.services h2::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/vector-polka-background-with-small-dots_1017-13972.png);
+    width: 15%;
+    height: 25px;
+    opacity: 0.3;
+    background-repeat: repeat;
+   z-index: -1;
+}
+.card p{
+    color: #999999;
+    font-size: 15.5px;
+}
+.card{
+    left: 0;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0,0,0.8) !important;
+    padding: 50px 20px;
+}
+.layer{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.item:hover .layer{
+    opacity: 1;
+    border: 5px solid lightgray;
+}
+.item .layer .icons i:hover{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+.portfolio ul .active{
+    border-bottom: 4px solid black !important;
+    color: black !important;
+}
+.nav-link{
+    color: black !important;
+
+}
+.portfolio h2{
+    font-weight: 800;
+   z-index: 2;
+    position: relative;
+   
+}
+
+.portfolio h2::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/vector-polka-background-with-small-dots_1017-13972.png);
+    width: 15%;
+    height: 25px;
+    opacity: 0.3;
+    background-repeat: repeat;
+   z-index: -1;
+}
+.services .cards .card i{
+    padding: 25px 20px !important;
+    border-radius: 100%;
+    transition: 0.5s;
+  
+
+}
+  .services .cards:hover i{
+    background-color: black !important;
+    color: white !important;
+ }
+
+
+
+.clients h2{
+    font-weight: 800 !important;
+}
+.clients h2{
+    font-weight: 800;
+   z-index: 2;
+    position: relative;
+   
+}
+
+.clients h2::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/vector-polka-background-with-small-dots_1017-13972.png);
+    width: 25%;
+    height: 25px;
+    opacity: 0.3;
+    background-repeat: repeat;
+   z-index: -1;
+}
+.clients img{
+    width: 80px;
+}
+.clients .large-p{
+    width: 88%;
+    color: #748182;
+}
+.carousel-indicators button{
+   background-color:#999999 !important;
+   width: 10px !important;
+   border-radius: 100%;
+   height: 10px !important;
+  
+    position: relative !important;
+    top: 30px !important;
+    margin:-30px 10px !important;
+    opacity: 0.6 !important;
+    
+}
+.carousel-indicators button:hover{
+    opacity: 1 !important;
+}
+.info .card1 h4{
+    font-weight: 800 !important;
+}
+.team .social{
+   top: 30%;
+   bottom: 0px;
+   left: 30%;
+   right: 0;
+   background-color: white;
+  height: 200px;
+  width: 190px;
+   opacity: 0;
+   transition: 0.5s;
+ 
+}
+.team h2{
+    font-weight: 800;
+   z-index: 2;
+    position: relative;
+   
+}
+
+.team h2::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/vector-polka-background-with-small-dots_1017-13972.png);
+    width: 20%;
+    height: 25px;
+    opacity: 0.4;
+    background-repeat: repeat;
+   z-index: -1;
+}
+.team .image:hover .social{
+    opacity: 1;
+    transform:rotateY(360deg);
+    height: 357px;
+    width: 340px;
+    top: 10px;
+    bottom: 0px;
+    left: 6%;
+    right: 0;
+    
+
+}
+.team .image:hover .social i{
+    border: 1px solid black;
+    padding: 7px 7px;
+    border-radius: 100%;
+    margin: 0px 5px ;
+    transition: 0.5s;
+}
+.team .image .social i:hover{
+    background-color: white !important;
+    color: black !important;
+    cursor: pointer;
+
+}
+.contact h2{
+    font-weight: 800;
+   z-index: 2;
+    position: relative;
+   
+}
+
+.contact h2::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/vector-polka-background-with-small-dots_1017-13972.png);
+    width: 20%;
+    height: 25px;
+    opacity: 0.4;
+   
+    background-repeat: repeat;
+   z-index: -1;
+}
+.contact .card2 i{
+   
+    padding: 20px 20px ;
+    border-radius: 100%;
+    transition: 0.5s;
+    
+    
+}
+.contact .card2:hover i{
+    background-color: black !important;
+    color: white !important;
+    box-shadow: none;
+
+}
+.contact .form-control{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  
+}
+.contact .btn{
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    padding: 10px 25px;
+}
+.contact .btn:hover{
+    background-color: white;
+    color: black;
+}
+.footer p{
+    color: #748182;
+    font-size: 14px;
+}
+.footer{
+    background-color:#1C1C1C;
+    height: 100px;
+}
